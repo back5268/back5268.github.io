@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@font-face {
+    font-family: DS-DIGIT;
+    src: url(font/DS-DIGIT.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /* ===== Colors ===== */
+    --body-color: #14182B;
+    --sidebar-color: #20253D;
+    --title-color: #E7E9F0;
+    --prime-color: #016BFF;
+
+    /* ====== Transition ====== */
+    --trans-01: all 0.3s ease;
+}
+
+body {
+    transition: var(--trans-01);
+    color: var(--title-color);
+    background-color: var(--body-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sub-title {
+    opacity: 0.5;
+}
+
+.icon {
+    color: var(--title-color);
+    transition: var(--trans-01);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ========== Nav Header ========== */
+.nav-header {
+    position: fixed;
+    top: 16px;
+    left: 224px;
+    right: 16px;
+    height: 48px;
+    border-radius: 8px;
+    transition: var(--trans-01);
+}
+
+.nav-header.active {
+    left: 96px;
+}
+
+.nav-header .title-header {
+    width: fit-content;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    color: var(--title-header);
+    transition: var(--trans-01);
+}
+
+.nav-header .menus-header {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-header .menus-header .box-search {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    gap: 1rem;
+    background-color: var(--sidebar-color);
+}
+
+.nav-header .menus-header .box-search input {
+    width: 16rem;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    color: var(--title-color);
+    background-color: var(--sidebar-color);
+}
+
+.nav-header .menus-header .box-search input::placeholder {
+    opacity: 0.75;
+    color: var(--title-color);
+}
+
+.nav-header .menus-header .box-search i {
+    cursor: pointer;
+}
+
+.nav-header .menu-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-header .menus-header .menu-header .icon-header {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--sidebar-color);
+}
+
+/* ========== Nav Sidebar ========== */
+.nav-sidebar {
+    position: fixed;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+    width: 192px;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--sidebar-color);
+    transition: var(--trans-01);
+}
+
+.nav-sidebar.close {
+    width: 64px;
+}
+
+.nav-sidebar .header-sidebar {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 2rem 0;
+    gap: 1rem;
+}
+
+.nav-sidebar .header-sidebar img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--title-color);
+}
+
+.nav-sidebar.close .header-sidebar img {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-sidebar .header-sidebar .title-avatar {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav-sidebar.close .title-avatar {
+    display: none;
+}
+
+.nav-sidebar div hr {
+    width: 100%;
+    border: none;
+    opacity: 0.75;
+    height: 0.5px;
+    background-color: var(--title-color);
+}
+
+.nav-sidebar .menu-sidebar {
+    width: 100%;
+    padding: 1.5rem 0;
+}
+
+.nav-sidebar .menu-sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.nav-sidebar .menu-sidebar a:hover {
+    background-color: var(--title-color);
+}
+
+.nav-sidebar .menu-sidebar .title-icon {
+    opacity: 0.75;
+    color: var(--title-color);
+}
+
+.nav-sidebar.close .menu-sidebar .title-icon {
+    display: none;
+}
+
+.nav-sidebar .toggle {
+    width: 100%;
+    cursor: pointer;
+}
+
+.nav-sidebar.close .toggle {
+    transform: rotate(180deg);
+}
