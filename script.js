@@ -8,8 +8,3 @@ toggle.addEventListener("click", () => {
     sidebar.classList.toggle("close");
     header.classList.toggle("active");
 })
-
-toggleMode.addEventListener("click", () => {
-    toggleMode.classList.toggle("active");
-    body.classList.toggle("light");
-})
