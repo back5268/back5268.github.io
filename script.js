@@ -24,58 +24,64 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STRORAGE_KEY)) || {},
     songs: [
         {
-            name: 'Suy nghĩ trong anh',
-            singer: 'Khắc Việt',
+            name: 'Về Nhà Ăn Tết',
+            singer: 'BigDaddy ft. JustaTee ft. Onionn',
             path: 'assets/music/song1.mp3',
-            img: 'assets/img/song1.png'
+            img: 'assets/img/song1.jpg'
         },
         {
-            name: 'Chưa quên người yêu cũ',
-            singer: 'Nguyễn Trần Trung Quân',
+            name: 'Tết Đong Đầy',
+            singer: 'Khoa x Kay Tran',
             path: 'assets/music/song2.mp3',
-            img: 'assets/img/song2.png'
+            img: 'assets/img/song2.jpg'
         },
         {
-            name: 'Không còn anh ở đây',
-            singer: 'DeeTee ft.Huyền Trang',
+            name: 'Chuyến Xe Về Nhà',
+            singer: 'Hữu Nhân ft. SanV',
             path: 'assets/music/song3.mp3',
-            img: 'assets/img/song3.png'
+            img: 'assets/img/song3.jpg'
         },
         {
-            name: 'Chuyện chúng ta sau này',
-            singer: 'Hải Đăng Doo',
+            name: 'Đi Về Nhà',
+            singer: 'Đen x Justatee',
             path: 'assets/music/song4.mp3',
-            img: 'assets/img/song4.png'
+            img: 'assets/img/song4.jpg'
         },
         {
-            name: 'Là anh',
-            singer: 'Phạm Lịch, BMZ',
+            name: 'Trên Taxi Chẳng Muốn Về Nhà',
+            singer: 'Hoàng Duyên',
             path: 'assets/music/song5.mp3',
-            img: 'assets/img/song5.png'
+            img: 'assets/img/song5.jpg'
         },
         {
-            name: 'Lần cuối mình cạnh nhau',
-            singer: 'QuocKiet, Rùa, 3HT, Melomix',
+            name: 'TRƯỚC KHI TUỔI TRẺ NÀY ĐÓNG LỐI',
+            singer: 'Ngắn x Xám x Dick',
             path: 'assets/music/song6.mp3',
-            img: 'assets/img/song6.png'
+            img: 'assets/img/song6.jpg'
         },
         {
-            name: 'Tôi đã quên thật rồi',
-            singer: 'Isaac',
+            name: 'SỐNG CHO HẾT ĐỜI THANH XUÂN 2',
+            singer: 'BCTM x TNS',
             path: 'assets/music/song7.mp3',
-            img: 'assets/img/song7.png'
+            img: 'assets/img/song7.jpg'
         },
         {
-            name: 'Giấc mơ ngày cũ',
-            singer: 'Trang I.U, Melomix',
+            name: 'Ngày Nào',
+            singer: 'Datmaniac ft. Cá Hồi Hoang',
             path: 'assets/music/song8.mp3',
-            img: 'assets/img/song8.png'
+            img: 'assets/img/song8.jpg'
         },
         {
-            name: 'Yêu lại từ đầu',
-            singer: 'Khắc Việt',
+            name: 'Cưới Thôi',
+            singer: 'Masew x Masiu x B Ray x TAP',
             path: 'assets/music/song9.mp3',
-            img: 'assets/img/song9.png'
+            img: 'assets/img/song9.jpg'
+        },
+        {
+            name: 'SỐNG CHO HẾT ĐỜI THANH XUÂN',
+            singer: 'Dick x Xám x Tuyết',
+            path: 'assets/music/song10.mp3',
+            img: 'assets/img/song10.png'
         },
     ],
 
