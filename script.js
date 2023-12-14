@@ -24,65 +24,65 @@ const app = {
     config: JSON.parse(localStorage.getItem(PLAYER_STRORAGE_KEY)) || {},
     songs: [
         {
-            name: 'Về Nhà Ăn Tết',
-            singer: 'BigDaddy ft. JustaTee ft. Onionn',
+            name: 'Khóa Ly Biệt',
+            singer: ' Voi Bản Đôn',
             path: 'assets/music/song1.mp3',
             img: 'assets/img/song1.jpg'
         },
         {
-            name: 'Tết Đong Đầy',
-            singer: 'Khoa x Kay Tran',
+            name: 'Lặng yên',
+            singer: 'Bùi Anh Tuấn ft Ái Phương',
             path: 'assets/music/song2.mp3',
             img: 'assets/img/song2.jpg'
         },
         {
-            name: 'Chuyến Xe Về Nhà',
-            singer: 'Hữu Nhân ft. SanV',
+            name: 'Thuận Theo Ý Trời',
+            singer: 'Bùi Anh Tuấn',
             path: 'assets/music/song3.mp3',
             img: 'assets/img/song3.jpg'
         },
         {
-            name: 'Đi Về Nhà',
-            singer: 'Đen x Justatee',
+            name: 'Anh Chưa Thương Em Đến Vậy Đâu',
+            singer: 'Hứa Kim Tuyền',
             path: 'assets/music/song4.mp3',
             img: 'assets/img/song4.jpg'
         },
         {
-            name: 'Trên Taxi Chẳng Muốn Về Nhà',
-            singer: 'Hoàng Duyên',
+            name: 'Twenty One Pilots',
+            singer: 'Heathens ( cover by J.Fla )',
             path: 'assets/music/song5.mp3',
             img: 'assets/img/song5.jpg'
         },
         {
-            name: 'TRƯỚC KHI TUỔI TRẺ NÀY ĐÓNG LỐI',
-            singer: 'Ngắn x Xám x Dick',
+            name: 'Nơi Tình Yêu Kết Thúc',
+            singer: 'Bùi Anh Tuấn',
             path: 'assets/music/song6.mp3',
             img: 'assets/img/song6.jpg'
         },
         {
-            name: 'SỐNG CHO HẾT ĐỜI THANH XUÂN 2',
-            singer: 'BCTM x TNS',
+            name: 'Duyên Do Trời, Phận Tại Ta',
+            singer: '(feat. Voi Bản Đôn)',
             path: 'assets/music/song7.mp3',
             img: 'assets/img/song7.jpg'
         },
-        {
-            name: 'Ngày Nào',
-            singer: 'Datmaniac ft. Cá Hồi Hoang',
-            path: 'assets/music/song8.mp3',
-            img: 'assets/img/song8.jpg'
-        },
-        {
-            name: 'Cưới Thôi',
-            singer: 'Masew x Masiu x B Ray x TAP',
-            path: 'assets/music/song9.mp3',
-            img: 'assets/img/song9.jpg'
-        },
-        {
-            name: 'SỐNG CHO HẾT ĐỜI THANH XUÂN',
-            singer: 'Dick x Xám x Tuyết',
-            path: 'assets/music/song10.mp3',
-            img: 'assets/img/song10.png'
-        },
+        // {
+        //     name: 'Ngày Nào',
+        //     singer: 'Datmaniac ft. Cá Hồi Hoang',
+        //     path: 'assets/music/song8.mp3',
+        //     img: 'assets/img/song8.jpg'
+        // },
+        // {
+        //     name: 'Cưới Thôi',
+        //     singer: 'Masew x Masiu x B Ray x TAP',
+        //     path: 'assets/music/song9.mp3',
+        //     img: 'assets/img/song9.jpg'
+        // },
+        // {
+        //     name: 'SỐNG CHO HẾT ĐỜI THANH XUÂN',
+        //     singer: 'Dick x Xám x Tuyết',
+        //     path: 'assets/music/song10.mp3',
+        //     img: 'assets/img/song10.png'
+        // },
     ],
 
     setConfig: function(key, value) {
